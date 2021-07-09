@@ -80,6 +80,15 @@
             android:backgroundTint="#979797"
             android:text="WEST" />
 
+        <Button
+            android:id="@+id/button_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:backgroundTint="#979797"
+            android:text="CENTER" />
+
 
 
     </RelativeLayout>
