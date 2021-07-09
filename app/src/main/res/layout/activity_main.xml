@@ -23,10 +23,11 @@
             android:layout_gravity="center_vertical"/>
         
         <Button
+            android:id="@+id/button_big"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginStart="10dp"
-            android:text="@string/big"
+            android:text="@string/big"/>
 
     </LinearLayout>
     
