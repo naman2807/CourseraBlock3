@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">CourseraBlock3</string>
     <string name="small">Small</string>
+    <string name="big">Big</string>
 </resources>
