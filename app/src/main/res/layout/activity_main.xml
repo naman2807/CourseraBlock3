@@ -16,8 +16,8 @@
         android:orientation="horizontal">
         
         <Button
-            android:layout_width=""
-            android:layout_height=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
 
     </LinearLayout>
     
