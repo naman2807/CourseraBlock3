@@ -124,6 +124,17 @@
             android:backgroundTint="#979797"
             android:text="SW" />
 
+        <Button
+            android:id="@+id/button_nw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/button_west"
+            android:layout_below="@id/button_north"
+            android:layout_toLeftOf="@id/button_north"
+            android:layout_toRightOf="@id/button_west"
+            android:backgroundTint="#979797"
+            android:text="NW" />
+
     </RelativeLayout>
 
 </LinearLayout>
