@@ -7,38 +7,49 @@
     android:orientation="vertical"
     android:weightSum="100"
     tools:context=".MainActivity">
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0px"
         android:layout_weight="30"
-        android:weightSum="10"
         android:background="@android:color/holo_blue_bright"
-        android:orientation="horizontal">
-        
+        android:orientation="horizontal"
+        android:weightSum="10">
+
         <Button
             android:id="@+id/button_small"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
             android:layout_marginStart="10dp"
-            android:text="@string/small"
-            android:layout_gravity="center_vertical"/>
-        
+            android:text="@string/small" />
+
         <Button
             android:id="@+id/button_big"
             android:layout_width="0dp"
-            android:layout_weight="5"
             android:layout_height="match_parent"
             android:layout_marginStart="10dp"
-            android:text="@string/big"/>
+            android:layout_weight="5"
+            android:text="@string/big" />
 
     </LinearLayout>
-    
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0px"
         android:layout_weight="70"
         android:background="@drawable/compass">
+
+        <Button
+            android:id="@+id/button_north"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="47dp"
+            android:background="#979797"
+            android:text="NORTH" />
+
 
     </RelativeLayout>
 
