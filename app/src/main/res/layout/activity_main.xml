@@ -8,6 +8,8 @@
     tools:context=".MainActivity">
     
     <LinearLayout
-        android:layout_width=""
-        android:layout_height=""
+        android:layout_width="match_parent"
+        android:layout_height="0px">
+
+    </LinearLayout>
 </LinearLayout>
