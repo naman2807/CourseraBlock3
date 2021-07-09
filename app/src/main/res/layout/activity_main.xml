@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:weightSum="100"
     tools:context=".MainActivity">
     
     <LinearLayout
@@ -18,4 +19,5 @@
         android:layout_height="0px">
 
     </RelativeLayout>
+
 </LinearLayout>
