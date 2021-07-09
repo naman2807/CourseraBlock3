@@ -113,6 +113,17 @@
             android:text="SE" />
 
 
+        <Button
+            android:id="@+id/button_sw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/button_south"
+            android:layout_below="@id/button_west"
+            android:layout_toLeftOf="@id/button_south"
+            android:layout_toRightOf="@id/button_west"
+            android:backgroundTint="#979797"
+            android:text="SW" />
+
     </RelativeLayout>
 
 </LinearLayout>
